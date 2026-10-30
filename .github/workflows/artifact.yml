@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Download test file
-      uses: actions/download-artifact@v8
+      uses: actions/download-artifact@v5
       with:
         name: hello-artifact\
     - name: Read File
